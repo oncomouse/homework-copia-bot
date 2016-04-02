@@ -18,12 +18,12 @@ Bot.prototype.run = function() {
 	this.twitter.updateStatus(this.copia.get_copia(1), function (err, data) {
       console.log(err, data);
     })
-	setInterval(function() {
-		this.twitter.updateStatus(this.copia.get_copia(1), function (err, data) {
-	      console.log(err, data);
-	    });
-	}.bind(this), 60 * 60 * 1000);
+	//setInterval(function() {
+	//	this.twitter.updateStatus(this.copia.get_copia(1), function (err, data) {
+	//      console.log(err, data);
+	//    });
+	//}.bind(this), 60 * 60 * 1000);
 }
 
-var copia = new Bot('HomeworkCopia')
+var copia = new Bot('HomeworkCopia');
 copia.run();
