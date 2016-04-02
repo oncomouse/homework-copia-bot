@@ -7,10 +7,10 @@
     "js-yaml": "^3.5.5",
     "lodash": "^4.7.0",
     "rita": "^1.1.35",
+    "twitter-bot-environment": "^1.0.3",
     "twode": "0.0.3"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "node bot.js",
     "test": "node bot.js"
