@@ -14,7 +14,6 @@ function Bot(handle) {
 Bot.prototype.run = function() {
 	this.twitter.updateStatus(this.copia.get_copia(1), function (err, data) {
       console.log(err, data);
-	  console.log(environment.getEnvironment());
     })
 }
 
